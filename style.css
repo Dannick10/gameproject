@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Quicksand:wght@300;400;500&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+:root{
+    --fonta: 'Quicksand',Arial, Helvetica, sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonta);
+}
+
+body{
+ 
+   
+   background:linear-gradient(228deg, #3590AB 1.82%, rgba(53, 144, 171, 0.00) 103.98%);
+}
+
+
+
+ul{
+    display: flex;
+    list-style: none;
+   
+}   
+
+i{
+    font-size: 1.8em;
+ 
+}
+
+h1{
+    color: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    color: white;
+    background-color: #7BD651;
+    border: none;
+    border-bottom: 8px solid #5C8449;
+    border-radius: 20px;
+    padding: 20px 50px;
+}
+
+button:hover{
+    background: #FA913E;
+    border-bottom: 8px solid #E3622D;
+    cursor: pointer;
+}
+
+
+#gdm-dev{
+    margin-bottom: 80px;
+}
+
+#home-nav{
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-list img {
+    padding: 10px;
+}
+
+.nav-list div:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+
+.nav-list div {
+ margin: auto;
+ text-align: center;
+}
+
+#home{
+   text-align: center;
+   margin: 20px;
+   
+}
+
+
+#home h2{
+    color: white;
+    font-weight: 100;
+   letter-spacing: 0.2em;
+}
+
+.title h2{
+    background-color: #617378;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 40px;
+}
+
+.title {
+    margin: 20px 0;
+}
+
+.box-section {
+    background: #FFF;  
+    padding: 30px;
+    margin: auto;
+    width: 907px;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box-section p {
+    margin: 20px 0;
+}
+
+.box-section li{
+    margin: 0 10px;
+}
+
+
+
+
+
+.aside-section h3{
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+.topics{
+    color: #C4C4C4;
+    text-align: center;
+    font-size: 0.6em;
+    display: none;
+}
+
+.aside-img{
+ text-align: center;
+ 
+
+}
+
+.aside-img img{
+   margin: 10px;
+   
+}
+
+.aside-img-l {
+    display: flex;
+    
+}
+
+.aside-img-l div{
+    text-align: center;
+    margin: auto;
+   
+}
+
+.footer-design{
+    background-color: #3590AB;
+    background: url(imagem/rodapeDesktop\ 1.png) no-repeat; 
+    background-size: cover;
+    height: 30px;
+}
+
+.footer-info{
+    height: 109px;
+    background-color: #FFF;
+    text-align: center;
+}
+
+#footer p {
+   
+    padding: 10px;
+}
+
+.footer-info::after{
+    content: 'Site feito por Daniel ';
+}
+
+/**/
+
+#mall{
+    background: #FFF;
+  
+}
+
+.info-mall  {
+  text-align: center;
+    margin-bottom: 40px;
+}
+
+#forms{
+    display: flex;
+    align-items: center;
+   
+}
+
+.forms-tittle h3{
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
+    transform: rotate(-90deg);
+    letter-spacing: 4px;
+   
+}
+
+.forms-box {
+    font-weight: bold;
+}
+
+.forms-box input, textarea {
+margin: 20px 0 20px 0;
+width: 70vw;
+border: 1px solid grey;
+border-radius: 0 10px;
+padding: 5px;
+}
+
+.forms-box .button{
+ text-align: center;
+ margin: 10px;
+ position: relative;
+ right: 20px;
+}
+
+.dispear{
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+
